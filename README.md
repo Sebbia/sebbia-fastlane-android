@@ -5,6 +5,7 @@ Dockerized Fastlane for Android apps deployments.
 Provides:
 * fastlane
 * firebase_app_distribution plugin
+* [huawei_appgallery_connect plugin](https://github.com/shr3jn/fastlane-plugin-huawei_appgallery_connect)
 * gitlab_get_release_notes
 
 ## Getting release notes from Gitlab

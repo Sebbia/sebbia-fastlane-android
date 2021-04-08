@@ -2,7 +2,7 @@ FROM alpine:3.13.4
 
 RUN export DEV_PACKAGES="ruby-dev gcc musl-dev make g++" && \
     apk --no-cache add $DEV_PACKAGES ruby curl jq && \
-    gem install fastlane fastlane-plugin-firebase_app_distribution && \
+    gem install fastlane fastlane-plugin-firebase_app_distribution fastlane-plugin-huawei_appgallery_connect && \
     apk --no-cache del $DEV_PACKAGES
 
 ENV LC_ALL=en_US.UTF-8
