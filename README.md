@@ -1,3 +1,5 @@
+![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/sebbia/fastlane-android)
+
 # Fastlane for Android
 
 Dockerized Fastlane for Android apps deployments.
