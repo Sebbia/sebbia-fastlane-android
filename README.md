@@ -1,6 +1,7 @@
 <a href="https://hub.docker.com/r/sebbia/fastlane-android">
 <img src="https://img.shields.io/docker/cloud/build/sebbia/fastlane-android" alt="Docker Cloud Build Status" />
 </a>
+
 # Fastlane for Android
 
 Dockerized Fastlane for Android apps deployments.
